@@ -17,6 +17,7 @@ def solution(msg) :
             else :
                 now = new
 
+        # 마지막 처리 (마지막이 사전에 있는 단어에 포함되는가 / 아닌가)
         if(new_i ==  l - 1) :
             if(new == d[-1]) :
                 answer.append(d.index(msg[-1]))
